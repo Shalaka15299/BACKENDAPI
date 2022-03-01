@@ -64,5 +64,16 @@ namespace BACKENDAPI.Controllers
                 orderData = order
             });
         }
+
+        //[HttpGet("getalldata")]
+        //public IActionResult GetOrders()
+        //{
+        //    var order = _context.orderModels.AsQueryable();
+        //    return Ok(new
+        //    {
+        //        StatusCode = 200,
+        //        orderData = order
+        //    });
+        //}
     }
 }
